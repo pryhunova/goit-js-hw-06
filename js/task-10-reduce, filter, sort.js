@@ -111,6 +111,10 @@ const getSortedUniqueSkills = (array) => array
 .filter((item, index, array) => array.indexOf(item) === index)
 .sort(users.skills);
 
+//.reduce((acc, item) => [...acc, ...item.skills], [])
+//.filter((value, index, self) => self.indexOf(value) === index)
+//.sort();
+
 console.log(getSortedUniqueSkills(users));
 
 console.log(getSortedUniqueSkills(users));
